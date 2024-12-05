@@ -38,7 +38,7 @@ Installation and Setup:
 
 2. Install Python Dependencies:
    ```bash
-   pip install flask pymongo langchain safetensors
+   install flask pymongo langchain safetensors llama 
    ```
 3. Configure MongoDB:
    - Ensure MongoDB is running locally and has the database `chatbot_db` with a collection named `conversations`.
