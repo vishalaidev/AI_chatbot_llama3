@@ -105,7 +105,7 @@ def handle_cli_input():
             "student_id": student_id,
             "message": user_input
         }
-        response = requests.post("http://192.168.0.11/chatbot", json=data)
+        response = requests.post("http://192.168.x,xx/chatbot", json=data)
         
         if response.status_code == 200:
             result = response.json()
@@ -116,7 +116,7 @@ def handle_cli_input():
 
 if __name__ == "__main__":
     # Start Flask app in the background
-    flask_thread = threading.Thread(target=lambda: app.run(host="192.168.0.11", port=5011, use_reloader=False))
+    flask_thread = threading.Thread(target=lambda: app.run(host="192.168.x.x", port=5011, use_reloader=False))
     flask_thread.start()
 
     # Handle real-time CLI input
