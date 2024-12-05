@@ -3,7 +3,7 @@ import requests
 
 
 def send_message_to_server(student_id, message):
-    url = "http://192.168.0.11:5011/chatbot"  
+    url = "http://192.168.x.xx:5011/chatbot"  
     data = {
         "student_id": student_id,
         "message": message
