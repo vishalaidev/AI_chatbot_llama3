@@ -49,7 +49,7 @@ Installation and Setup:
 5. Start the Flask Application:
    - Run the Flask server with the following command:
      ```bash
-     python app.py
+     python ai_bot_server.py.py
      ```
 
    - This will start the Flask server on `http://**********:5011`.
